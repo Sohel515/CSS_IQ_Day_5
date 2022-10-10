@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.transition{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px;
+    transition: width 2s , height 4s;
+    padding: 10px;
+}
+.transition:hover{
+    width: 200px;
+    height: 200px;
+    /* transform: rotate(90deg); */
+    cursor: pointer;
+}
+.liner{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    margin: 20px;
+    transition: width 2s;
+    padding: 20px;
+
+}
+.liner:hover{
+    width: 300px;
+    height:50px;
+    transition-timing-function: linear ;
+    cursor: pointer;
+}
+.ease{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    margin: 20px;
+    transition: width 2s;
+    padding: 20px;
+}
+.ease:hover{
+    width: 300px;
+    height:50px;
+    transition-timing-function: ease ;
+    cursor: pointer;
+}
+.ease-in{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    margin: 20px;
+    transition: width 2s;
+    padding: 20px;
+
+}
+.ease-in:hover{
+    width: 300px;
+    height:50px;
+    transition-timing-function: ease-in ;
+    cursor: pointer;
+}.ease-out{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    margin: 20px;
+    transition: width 2s;
+    padding: 20px;
+
+}
+.ease-out:hover{
+    width: 300px;
+    height:50px;
+    transition-timing-function: ease-out ;
+    cursor: pointer;
+}.ease-in-out{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    margin: 20px;
+    transition: width 2s;
+    padding: 20px;
+
+}
+.ease-in-out:hover{
+    width: 300px;
+    height:50px;
+    transition-timing-function: ease-in-out ;
+    cursor: pointer;
+}
+
+/* que-25 */
+.transf{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 2s;
+}
+.transf:hover{
+    transform: rotate(360deg);
+}
+
+/* Que-26 */
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    /* background-color: aqua; */
+    grid-gap: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.item{
+    background-color: aqua;
+    border: 2px solid blue;
+}
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-top:10px ;
+}
+.item-2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top:10px ;
+}
+.item-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-top:10px ;
+}
+.item-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-top:10px ;
+}
+.item-5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding-top:10px ;
+}
+.item-6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-top:10px ;
+}
+/* que-26 */
